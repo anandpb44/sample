@@ -42,21 +42,21 @@
         width: 20%;
         
     }    .im1{
-        margin-top:-28.2%;
-        margin-left: 30%;
+        margin-top:-33.2%;
+        margin-left: 31%;
         width: 20%;
         
     }
     .im2{
-        margin-top: -14%;
-        margin-left: 45%;
+        margin-top: -15.3%;
+        margin-left: 46%;
         width: 25%;
     }
     table,td,th{
-        margin-left: 59%;
-        width: 10%;
+        margin-left: 61.5%;
+        width: 13%;
         height: 75%;
-        margin-top: -13.9%;
+        margin-top: -15.6%;
         border: .5px solid black;
         border-collapse: collapse;
     }
@@ -69,27 +69,175 @@
         font-size: 13px;
     }
     .c{
-        border-radius: 80%;
-        width: 70px;
-        height: 70px;
+        border-radius: 85%;
+        width: 62px;
+        height: 62px;
 
     }
     .im3{
-        margin-left:8%;
-        margin-top: -15%;
+        margin-left: 7.9%;
+        margin-top: -6%;
         display: flex;
     }
     .im4{
         margin-left: 30%;
-        margin-top: -18%;
+        margin-top: -21%;
         width: 15%;
-        font-size: 8px;
+        font-size: 12px;
     }
     .im5{
         margin-left: 45%;
-        margin-top: -15%;
+        margin-top: -16.5%;
         width: 14%;
-        font-size: 9px;
+        font-size: 12px;
     }
-    
-    
+    .ma{
+        margin-left: 9%;
+    }    
+    .im6{
+        margin-left: 36%;
+        margin-top: 1%;
+        font-size: 12px;
+        width: 14%;
+    }
+    .im7{
+        margin-left: 50.5%;
+        margin-top: -279;
+        width: 14%;
+        font-size: 12px;
+    }
+    .h2{
+        margin-left: 16%;
+        margin-top: 0%;
+        display: flex;
+        font-size: 19px;
+
+
+    }
+    .pa{
+    margin-left: 50%;
+    margin-top: 4;
+    font-size: 14px;
+    font-style: italic;
+    }
+     .m5{
+        margin-top: 0%;
+        margin-left: 15%;
+        border-top: 2px solid black;
+        margin-right: 20%;
+     }
+     .mh{
+        margin-left: 42%;
+        margin-top: -310px;
+        width: 290px;
+        
+
+     }
+     .m10{
+        width: 60px;
+        height: 60px;
+        margin-left: 42%;
+        border-radius: 50%;
+     }
+     .im10{
+        display: flex;
+        font-size: 20px;
+     }
+     .mm{
+        margin-left: 60%;
+       margin-top:  -370px;
+        width: 400px;
+
+     }
+     .mc{
+        border-top: 2px solid gray;
+        margin-left: 60%;
+        margin-top:  -10px;
+         width: 400px;
+     }
+     .bacardi{
+        border-top: 2px solid gray;
+        margin-left: 60%;
+        margin-top: 0px;
+         width: 400px;
+
+     }
+     .javan{
+        border-top: 2px solid gray;
+        margin-left:60%;
+        margin-top: 0px;
+         width: 400px;
+         border-bottom: 2px solid gray;
+     }
+     .pho{
+        margin-left: 27%;
+        margin-top: -550px;
+     }
+     .puppy{
+        margin-left: 15%;
+        margin-top: -450px;
+        width: 200px;
+        font-size: 15px;
+        border-bottom: 2px solid gray;
+
+     }
+     .see{
+        margin-left: 28%;
+        margin-top: -0px;
+        width: 30%;
+        font-size: 15px;
+     }
+     .u{
+        margin-left: 15%;
+        width: 200px;
+        margin-top: -150px;
+     }
+     .BB{
+        margin-left: 15%;
+        margin-top:0;
+        font-size: 20px;
+        border-bottom: 2px solid gray;
+     }
+     .FF{
+        margin-left: 15%;
+        margin-top: 0px;
+        width: 300px;
+        border-bottom: 2px solid gray;
+     }
+     .k{
+       
+        
+        margin-left: 15%;
+        margin-top: -330px;
+        width: 300px;
+        border-bottom: 2px solid gray;
+     }
+    .RR{
+        margin-left: 31%;
+        margin-top: -175px;
+
+    }
+    .ON{
+        margin-left: 15%;
+        margin-top: -0px;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    .OL{
+        margin-left: 15%;
+        margin-top: -0px;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    .LO{
+        margin-left: 15%;
+        margin-top: -0px;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
+    .OK{
+        margin-left: 15%;
+        margin-top: -0px;
+        width: 300px;
+        border-bottom: 2px solid gray;
+    }
