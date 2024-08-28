@@ -223,21 +223,129 @@
         width: 300px;
         border-bottom: 2px solid gray;
     }
-    .OL{
-        margin-left: 15%;
-        margin-top: -0px;
-        width: 300px;
-        border-bottom: 2px solid gray;
+    .PP{
+        margin-left: 70%;
+        margin-top:-60px;
+        font-size: 18px;
+        font-style: italic;
     }
-    .LO{
-        margin-left: 15%;
-        margin-top: -0px;
+    .OL{
+        margin-left: 64%;
         width: 300px;
-        border-bottom: 2px solid gray;
+        margin-top: -965px;
     }
     .OK{
-        margin-left: 15%;
-        margin-top: -0px;
+        margin-left:64% ;
+        display: flex;
+    }
+    .YY{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+    }
+    .YO{
+        margin-left: 31%;
         width: 300px;
+        margin-top: 100px;
+    }
+    .LOW{
+        margin-left: 50%;
+        margin-top: -600px;
+        width: 600px;
+
+    }
+    .CC{
+        margin-left: 15%;
+        width: 300px;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    .DD{
+        margin-left:15% ;
+        display: flex;
+    }
+    .HIG{
+        margin-left: 32%;
+        width: 300px;
+        margin-top: -557px;
+        font-size: 14px;
+    }
+    .HO{
+        margin-left: 32%;
+        width: 350px;
+        margin-top:0px;
+        font-size: 14px;
+    }
+    .TT{
+        margin-left: 50%;
+        width: 350px;
+        margin-top:-620px;
+        font-size: 14px;
+    }
+    .AA{
+        margin-left: 50%;
+        width: 350px;
+        margin-top:px;
+        font-size: 14px;
+    }
+    .LOL{
+        margin-left: 15%;
+        width: 300px;
+        margin-top: 0px;
+        font-size: 14px;
         border-bottom: 2px solid gray;
     }
+    .OO{
+        margin-left: 15%;
+        width: 300px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .QQ{
+        margin-left: 32%;
+        width: 350px;
+        margin-top:-230px;
+        font-size: 14px;
+    }
+    .SA{
+        margin-left: 50.5%;
+        margin-top: -330px;
+        width: 350px;
+        font-size: 14px;
+    }
+    .one{
+        margin-left:68%;
+        margin-top: -900px;
+         width: 350px;
+         border-bottom: 2px solid gray;
+    }
+    .two{
+        margin-left:68%;
+        margin-top: 0px;
+         width: 350px;
+         border-bottom: 2px solid gray;
+    }
+    .doom{
+        margin-left: 15%;
+        width: 160px;
+        margin-top: 10px;
+        color: aliceblue;
+        
+    }
+    .dry{
+        background-color: black;
+    }
+    .tom{
+        margin-left: 27%;
+        margin-top: -320px;
+        width: 100px;
+        color: aliceblue;
+    }
+    .jerry{
+        margin-left: 35%;
+        margin-top: -120px;
+        width: 100px;
+        color: aliceblue;
+    }
+
