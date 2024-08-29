@@ -335,6 +335,7 @@
     }
     .dry{
         background-color: black;
+        height: 350px;
     }
     .tom{
         margin-left: 27%;
@@ -348,4 +349,48 @@
         width: 100px;
         color: aliceblue;
     }
+    .SU{
+        margin-left: 44%;
+        margin-top: -190px;
+        width: 300px;
+        color: aliceblue;
+    }
+    .W{
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 9px;
+    }
+    .mod{
+        margin-left: 48%;
+        width: 310px;
+        font-size: 13px;
+        margin-top: -270px;
+        color: aliceblue;
+    }
+    .mad{
+        margin-left: 48%;
+        margin-top: -7px;
+        width: 310px;
+        font-size: 13px;
+        color: aliceblue;
+    }
+    .flow{
+        background-color: gray;
+        height: 100px;
+    }
+    .wood{
+        margin-left: 15%;
+        width: 300px;
+        color: white;
+        margin-top: 8px;
 
+    }
+    .R{
+        margin-left: 75%;
+        border-radius: 60%;
+        display: inline-flex;
+        margin-top: -30px;
+    }
+    .R img{
+        margin-left: 15px;
+    }
