@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    height: 100px;
+    width: 100px;
+    animation-name: sample;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    background-color: black;
+    position: relative;
+    border-radius: 50%;
+
+
+}
+    @keyframes sample {
+        0%{
+            background-color: black;left: 0;top: 0px ;
+        }  
+        25%{
+            background-color: black;left: 0px;top:400px;
+        }
+        50%{
+            background-color: black;left: 0px;top:100px;
+        }
+        75%{
+            background-color: black;left: 0px;top:400px;
+        }   
+        100%{
+            background-color: black;left: 0px;top:200px;
+        }
+    }
+    .flat{
+        border-bottom: 20px solid black;
+        margin-top: 400px;
+        position: static;
+    }
