@@ -1,0 +1,76 @@
+.main{
+    width:100%;
+    height: 90px;
+    background-color: black;
+}
+.w{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 45px;
+}
+.three{
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+}
+.c{
+    display: flex;
+}
+.four{
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+.loo{
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+@media only screen and (max-width:1200px) and (min-width:200px) {
+    .main{
+    width: 100%;
+    height: 90px;
+    background-color: red;
+}
+.w{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+}
+.three{
+    background-color: rgb(219, 17, 17);
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+}
+.c{
+    display: inline;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.four{
+    background-color: rgb(192, 22, 22);
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+.loo{
+    background-color: rgb(177, 24, 24);
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+}
+
+
+    
