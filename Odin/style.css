@@ -1,0 +1,21 @@
+.main{
+    margin-left: 13%;
+    display: flex;
+    list-style: none;
+    margin-right: 0%;
+}
+
+.c {
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .m{
+    margin-top: 100px;
+    margin-left: 27%;
+    font-size: 17px;
+    width: 700px;
+  }
+  li:hover{
+
+  }
