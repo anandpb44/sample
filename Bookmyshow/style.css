@@ -188,12 +188,38 @@ ul.ul1 li{
   padding-left: 90px;
 }
 .footer{
+  width: 100%;
   background-color: rgb(29, 27, 27);
-  height: 500;
 }
 .fh{
-  padding-left: 12px;
   display: flex;
-  margin-left: 14%;
+  padding-right:60px;
+  padding: 40px;
+  padding-left: 225px;
+
   color: white;
+}
+.foot1{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(48, 45, 45);
+  width: 100%;
+  height: 120px;
+}
+.ft1{
+ padding-left: 220px;
+
+}
+.footer2{
+  color: rgb(153, 151, 151);
+  padding-left:220px;
+
+}
+.footer2 h4{
+  padding: 20px;
+  font-size: 12px;
+}
+.footer2 p{
+  font-size: 12px;
+  padding-left: 20px;
 }
