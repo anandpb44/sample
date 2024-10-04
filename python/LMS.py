@@ -8,7 +8,7 @@ while True:
     ch=int(input('enter choice:'))
     if ch==1:
         if len(user)==0:
-            id=1
+            id=101
             
         else:
             id=user[-1]['id']+1
@@ -17,7 +17,7 @@ while True:
         email=input('enter email:')
         phno=int(input('enter phone no:'))
         password=input('enter password:')
-        user.append({'id':id,'name':name,'email':email,'phnoeno':phno,'password':password})
+        user.append({'id':id,'name':name,'email':email,'phone':phno,'password':password,'book':[]})
     elif ch==2:
         uname=input('enter user name:')
         password=input('enter password:')
@@ -36,13 +36,13 @@ while True:
                 ch1=int(input('enter choice:'))
                 if ch1==1:
                     if len(book)==0:
-                        id=101
+                        id=100
                     else:
                         id=book[-1]['id']+1
                         print(id)
                     
                     name=input('enter name:')
-                    stock=int(input('enter no of it:'))
+                    stock=int(input('No of Stock:'))
                     price=int(input('enter price:'))
                     book.append({'id':id,'name':name,'stock':stock,'price':price})
                 elif ch1==2:
@@ -68,11 +68,11 @@ while True:
                 elif ch1==4:
                       print('{:<14}{:<12}{:<20}{:<10}'.format('id','Name','stock','price'))
                       for i in book:
-                          print('{:<14}{:<12}{:20}{:10}'.format(i['id'],i['name'],i['stock'],i['price']))
+                          print('{:<14}{:<12}{:<20}{:<10}'.format(i['id'],i['name'],i['stock'],i['price']))
                 elif ch1==5:
-                      print('{:<14}{:<12}{:<20}{:<10}'.format('id','Name','Email','phno'))
+                      print('{:<14}{:<12}{:<20}{:<10}'.format('id','Name','Email','phone'))
                       for i in user:
-                          print('{:<14}{:<12}{:20}{:10}'.format(i['id'],i['name'],i['email'],i['phno']))
+                          print('{:<14}{:<12}{:<20}{:<10}'.format(i['id'],i['name'],i['email'],i['phone']))
                 elif ch1==6:
                     break
                 else:
@@ -83,6 +83,52 @@ while True:
             if i['id']==uname and i['password']==password:
                 print('user login')
                 f=2
+                while True:
+                    print('''
+                          1.view book
+                          2.lend book
+                          3.return book
+                          4.books in hand
+                          5.log out''')
+                    ch2=int(input('enter choice:'))
+                    if ch2==1:
+                       print('{:<14}{:<12}{:<10}{:<10}'.format('id','Name','stock','price'))
+                       for j in book:
+                          print('{:<14}{:<12}{:<10}{:<10}'.format(j['id'],j['name'],j['stock'],j['price'])) 
+                    elif ch2==2:
+                        id=int(input('enter id:'))
+                        f1=0
+                        for j in book:
+                            if j['id']==id:
+                                f1=1
+                                if j['stock']>0:
+                                    i['book'].append(id)
+                                    j['stock']-=1
+                                else:
+                                    print('out of stock!')
+                        if f1==0:
+                            print('Book not available!')
+                    elif ch2==3:
+                        id=int(input('enter id:'))
+                        f1=0
+                        for j in book:
+                            if j['id']==id and id in i['book']:
+                                f1=1
+                                j['stock']+=1
+                                i['book'].remove(id)
+                        if f1==0:
+                            print('book not available!')
+                    elif ch2==4:
+                        if len(i['book'])==0:
+                            print('No books!')
+                        else:
+                            print(i['book'])
+                    elif ch2==5:
+                        break
+                    else:
+                        print('invalid choice!')
+                                    
+                    
             if f==0:
                 print('invalid')
     elif ch==3:
