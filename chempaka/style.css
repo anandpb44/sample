@@ -1,0 +1,19 @@
+.head{
+    background-color: rgb(255, 232, 223);
+}
+.container{
+    font-size: 15px;
+    color: black;
+}
+.bar{
+    background-color: rgb(41, 39, 39);
+}
+.bar2{
+    display: inline;
+}
+.logo{
+    padding-left: 150px;
+}
+.drop{
+padding-left: 400px;
+}
