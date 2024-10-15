@@ -23,6 +23,7 @@ def log():
         uname=int(uname)
         for i in user:
             if i['id']==uname and i['password']==password:
+                print('user login')
                 f=2
                 users=i
     if f==0:
