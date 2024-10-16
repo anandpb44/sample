@@ -6,14 +6,22 @@
     color: black;
 }
 .bar{
+   
     background-color: rgb(41, 39, 39);
 }
 .bar2{
-    display: inline;
-}
-.logo{
-    padding-left: 150px;
+    display: flex;
 }
 .drop{
-padding-left: 400px;
+    size: 5px;
+    display:flex;
+    padding-left: 115px;
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-top: 30px;
+    font-size: 15px;
+    color: white;
 }
