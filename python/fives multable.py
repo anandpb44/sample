@@ -1,4 +1,7 @@
 n=int(input('Enter the Number:'))
-if n==5:
-    for i in range(1,11):
-        print(i,'x',n,'=',i*n)
+f=open('multitable','w')
+for i in range(1,11):
+    for j in range(1,n+1):
+        print(i,'*',j,'=',i*j)
+        f.write(str(i)+'x'+str(j)+'='+str(i*j)+'\n')
+        f.write('\n')

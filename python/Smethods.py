@@ -1,4 +1,4 @@
-# s='malayalam is kerala language'
+s='malayalam is kerala language'
 # print(s[0])
 # print(s.capitalize())
 # print(s.isupper())
@@ -12,7 +12,7 @@
 # print(s.split(' '))
 # print(s.startswith('m'))
 # print(s.endswith('e'))
-# print(s.index('k'))
+print(s.index('k'))
 # print(s.find('k'))
 # print(s.center(20))
 # a='123'
