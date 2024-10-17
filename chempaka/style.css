@@ -20,8 +20,24 @@
 .para{
     display: flex;
     justify-content: space-around;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-top: 30px;
     font-size: 15px;
     color: white;
+}
+.search{
+    padding-left:24px;
+    padding-top: 20px;
+
+}
+.box{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    border-radius:5px;
+    width: 158;
+    height: 40;
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 25px;
 }
