@@ -50,7 +50,7 @@
 # print('small letter no:',letter-cap)
 # print('words no:',w)
 # print(l)
-import os
+# import os
 # if os.path.exists('demo'):
 #     os.remove('demo')
 # else:
