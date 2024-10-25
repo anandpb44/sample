@@ -44,5 +44,5 @@ import re
 
 #PASSWORD VALIDATION
 
-p=input('Enter PAssword:')
+p=input('Enter Password:')
 print(re.search('[a-z0-9A-Z].{7}',p))
