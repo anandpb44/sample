@@ -45,3 +45,7 @@ age=int(input('Enter Age:'))
 no=int(input('Enter No:'))
 cn.execute("update user set name=?,age=? where no=?",(name,age,no))
 cn.commit()
+
+# no=int(input('Enter No:'))
+# cn.execute("delete from user where no=?",(no,))
+# cn.commit()
